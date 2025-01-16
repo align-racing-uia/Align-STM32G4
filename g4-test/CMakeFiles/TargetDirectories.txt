@@ -1,3 +1,0 @@
-C:/Users/hrrs01/Documents/AR25/Align-STM32G4/g4-test/CMakeFiles/g4-test.dir
-C:/Users/hrrs01/Documents/AR25/Align-STM32G4/g4-test/CMakeFiles/edit_cache.dir
-C:/Users/hrrs01/Documents/AR25/Align-STM32G4/g4-test/CMakeFiles/rebuild_cache.dir
