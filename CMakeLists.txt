@@ -6,7 +6,8 @@ add_library(align-g4 INTERFACE)
 
 target_include_directories(align-g4 INTERFACE
     ${CMAKE_CURRENT_SOURCE_DIR}/inc
-    ${CMAKE_CURRENT_SOURCE_DIR}/inc/cmsis
+    ${CMAKE_CURRENT_SOURCE_DIR}/inc/cmsis-g4
+    ${CMAKE_CURRENT_SOURCE_DIR}/inc/cmsis-5/CMSIS/Core/Include
 )
 
 target_sources(align-g4 INTERFACE
