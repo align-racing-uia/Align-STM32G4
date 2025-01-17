@@ -4,3 +4,6 @@
 [submodule "inc/cmsis-g4"]
 	path = inc/cmsis-g4
 	url = https://github.com/STMicroelectronics/cmsis-device-g4
+[submodule "inc/stm32g4-hal"]
+	path = inc/stm32g4-hal
+	url = https://github.com/STMicroelectronics/stm32g4xx-hal-driver
