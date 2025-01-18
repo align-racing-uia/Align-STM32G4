@@ -13,6 +13,7 @@ target_include_directories(align-g4 INTERFACE
 
 target_sources(align-g4 INTERFACE
     ${CMAKE_CURRENT_SOURCE_DIR}/src/align.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/inc/cmsis-g4/Source/Templates/system_stm32g4xx.c
     ${CMAKE_CURRENT_SOURCE_DIR}/inc/stm32g4-hal/Src/stm32g4xx_hal_adc_ex.c
     ${CMAKE_CURRENT_SOURCE_DIR}/inc/stm32g4-hal/Src/stm32g4xx_hal_adc.c
     ${CMAKE_CURRENT_SOURCE_DIR}/inc/stm32g4-hal/Src/stm32g4xx_hal_comp.c
