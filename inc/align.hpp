@@ -24,8 +24,6 @@
 #endif
 
 #include <stm32g4xx.h>
-#include <stm32g4xx_hal.h>
-
 
 namespace Align {
     void init();
