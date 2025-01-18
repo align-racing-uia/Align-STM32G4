@@ -1,5 +1,5 @@
 #include "align.hpp"
 
 void Align::init(){
-    HAL::HAL_Init();
+    HAL_Init();
 }

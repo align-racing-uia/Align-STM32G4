@@ -1,6 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "cstdint": "cpp"
+        "cstdint": "cpp",
+        "stm32g4xx_hal.h": "c",
+        "stm32g4xx_hal_conf.h": "c"
     }
 }
