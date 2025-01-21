@@ -26,7 +26,14 @@
 #include <stm32g4xx.h>
 
 namespace Align {
-    void init();
+
+    typedef enum {
+      HSE_20MHz,
+      HSE_16MHz,
+      HSE_DISABLED
+  } HSE_Config;
+
+    void init(HSE_Config, bool);
 }
 
 #endif // ALIGN_HPP
